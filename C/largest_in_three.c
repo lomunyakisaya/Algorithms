@@ -8,7 +8,7 @@ int main(){
     scanf("%d%d%d", &x, &y, &z);
     
     if (x > y & x > z){
-        printf("X is the Greatest");
+        printf("X is the Grea\test");
     }
     else if(y > x & y > z)
     {
