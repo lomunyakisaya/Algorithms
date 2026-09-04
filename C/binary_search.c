@@ -32,6 +32,7 @@ int binary_search(int array[], int low, int high){
        return binary_search(array, middle + 1, high);
     }
 }
+
 int main() 
 {
     int result = binary_search(array, low, high);
