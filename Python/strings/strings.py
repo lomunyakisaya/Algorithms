@@ -1,0 +1,11 @@
+text = "Lomunyak From Jkuat University, Oloitoktok"
+print(text)
+print(len(text))
+print(text.upper())
+print(text.lower())
+print(text.capitalize())
+print(text.title())
+print(text.swapcase())
+print(text.strip())
+print(text.replace("Jkuat","Maseno"))
+print(text.encode())
