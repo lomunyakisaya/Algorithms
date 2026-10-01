@@ -54,7 +54,7 @@ class Car{
     int wheels;
     Car(int speed, int wheels){
         speed = speed;
-        wheels = wheels
+        wheels = wheels;
     }
 };
 int main(){
@@ -65,6 +65,6 @@ int main(){
     cout << "Product is: " << f.multiply() << endl;
     cout << "Quotient is: " << f.divide() <<endl;
     Rectangle r(56, 47);
-    cout << "Perimetor is: "<<r.perimetor()<<endl;
+    cout << "Perimeter is: "<<r.perimeter()<<endl;
     cout << "Area is: "<<r.area()<<endl;
 }
