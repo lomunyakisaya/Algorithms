@@ -99,7 +99,7 @@ json_string = '{"name": "Alice", "age": 25}'
 python_data = json.loads(json_string)
 print(python_data)
 ```
-
+u
 This converts a JSON string into a Python dictionary.
 
 ## Common JSON methods in Python
