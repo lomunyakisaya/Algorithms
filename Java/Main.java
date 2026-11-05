@@ -8,5 +8,12 @@ public class Main{
         "TIE"
         );
         s1.display();
+        Employee E1 = new Employee(
+            "Lomunyak",
+            "LOM4432",
+            3000, 
+            true
+        );
+        E1.introduce();
     }
 }
