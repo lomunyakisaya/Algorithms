@@ -507,7 +507,9 @@ impl Person {
 
 ## 9. Constructors and Initialization
 A constructor initializes an object when it is created.
-
+use the class name when creating a constractor in Java and Cpp
+use __init__(self,params)
+```e.g```
 ### Java
 ```java
 class Student {

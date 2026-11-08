@@ -5,7 +5,7 @@ public class CommissionedEmployee extends Employee{
     }
     double sales;
     double rate;
-    void getPaid(int salary){
-        return salary + rate * Sales;
+    double getPaid(int salary){
+        return salary + (sales * rate);
     }
 }
