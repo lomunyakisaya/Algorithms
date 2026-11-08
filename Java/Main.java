@@ -1,19 +1,10 @@
-public class Main{
+public class Main {
     public static void main(String[] args){
-        Student s1 = new Student(
-        "Lomunyak",
-        "Isaya", 
-        2342, 
-        24, 
-        "TIE"
-        );
-        s1.display();
-        Employee E1 = new Employee(
-            "Lomunyak",
-            "LOM4432",
-            3000, 
-            true
-        );
-        E1.introduce();
+        System.out.println("Hello Java");
+        Birds B1 = new Birds("Secretary Bird", "N/A");
+        B1.peking();
+        Car C1 = new Car();
+        C1.start();
+        C1.stop();
     }
 }
