@@ -1,11 +1,10 @@
 public class CommissionedEmployee extends Employee{
-    CommissionedEmployee(double sales, double rate){
-        this.sales = sales;
-        this.rate = rate;
+    int sales;
+    int rate;
+    CommissionedEmployee(String name, String registrationNo, int salary, boolean isVerified, int sales, int rate){
+        super(name, registrationNo, salary, isVerified);
     }
-    double sales;
-    double rate;
-    double getPaid(int salary){
+    double getPaid(int salary, int rate){
         return salary + (sales * rate);
     }
 }

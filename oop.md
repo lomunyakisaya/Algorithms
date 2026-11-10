@@ -21,9 +21,11 @@ class Car {
 public class Main {
     public static void main(String[] args) {
         Car c1 = new Car();
+        Car C2 = new Car();
         c1.brand = "Toyota";
         c1.speed = 80;
         c1.drive();
+        
     }
 }
 ```

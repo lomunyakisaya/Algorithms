@@ -20,7 +20,7 @@ int binary_search(int array[], int low, int high){
         return -1;
     }
 
-   int middle = low + (high - low) / 2;
+   int middle = low + (high - low) % 2;
     if (array[middle] ==target){    
         return middle;
     }
