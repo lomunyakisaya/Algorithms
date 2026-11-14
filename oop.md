@@ -890,10 +890,10 @@ class Bird implements AnimalAction {
 
 ## 11. Common OOP Interview Questions
 - What is the difference between a class and an object?
-- What is encapsulation?
-- What is inheritance?
-- What is polymorphism?
-- What is abstraction?
+- What is encapsulation? == Encapsulation means wrapping data and methods together in a class and hiding internal details from outside code.
+- What is inheritance? == Inheritance lets one class reuse the features of another class.
+- What is polymorphism? == Polymorphism means the same action can behave differently depending on the object.
+- What is abstraction? == Abstraction hides unnecessary details and exposes only the important behavior.
 - What is the difference between an abstract class and an interface?
 - Why is OOP better than procedural programming?
 
@@ -905,7 +905,6 @@ OOP is a programming model based on:
 - Objects
 - Encapsulation
 - Inheritance
-- Polymorphism
 - Abstraction
 
 These concepts make software easier to design, manage, and extend.
